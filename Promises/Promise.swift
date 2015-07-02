@@ -6,8 +6,6 @@
 //  Copyright © 2015 Claybrook Software, LLC. All rights reserved.
 //
 
-import UIKit
-
 typealias PromiseBlock = AnyObject? throws -> AnyObject?
 typealias DoneBlock = Void -> Void
 typealias CatchBlock = ErrorType -> Void
